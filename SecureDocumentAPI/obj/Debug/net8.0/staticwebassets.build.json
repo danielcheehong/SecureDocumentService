@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nJctUCfaoWPIrN3xxjfMgqUNJ0EAyzngMSaiD6bSLvA=",
+  "Source": "SecureDocumentAPI",
+  "BasePath": "_content/SecureDocumentAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
