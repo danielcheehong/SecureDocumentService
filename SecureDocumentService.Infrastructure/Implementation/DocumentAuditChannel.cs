@@ -1,11 +1,11 @@
 using System;
-using System.Security.Cryptography.X509Certificates;
 using System.Threading.Channels;
 using SecureDocumentAudit.DTO;
+using SecureDocumentService.Infrastructure.Interface;
 
-namespace SecureDocumentAPI.Infrastructure;
+namespace SecureDocumentService.Infrastructure.Implementation;
 
-public class DocumentAuditChannel
+public class DocumentAuditChannel: IDocumentAuditChannel
 {
     private readonly Channel<DocumentAuditRequest> _channel;
     public DocumentAuditChannel()

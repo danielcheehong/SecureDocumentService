@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SecureDocumentAudit.DTO\SecureDocumentAudit.DTO.csproj" />
     <ProjectReference Include="..\SecureDocumentService.DataAccess\SecureDocumentService.DataAccess.csproj" />
+    <ProjectReference Include="..\SecureDocumentService.Infrastructure\SecureDocumentService.Infrastructure.csproj" />
     <ProjectReference Include="..\SecureDocumentService.Workers\SecureDocumentService.Workers.csproj" />
   </ItemGroup>
 

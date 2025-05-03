@@ -2,11 +2,16 @@
 {
     public class DocumentAuditRequest
     {
-        public string UserId { get; set; }
-        public string DocumentId { get; set; }
-        public string DocumentType { get; set; }
+        public Guid Id { get; set; }
+        public string UserId { get; set; } = null!;
+        public string DocumentName { get; set; } = null!;
+        public string DocumentId { get; set; }= null!;
+
+        public string DocumentType { get; set; }= null!;
+
         public DateTime RequestDate { get; set; }
-        public string Description { get; set; }
+
+        public string Description { get; set; } = "";
     }
 
 }

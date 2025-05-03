@@ -16,7 +16,14 @@ C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.AssemblyInfoInputs.cache
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.AssemblyInfo.cs
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.csproj.CoreCompileInputs.cache
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.sourcelink.json
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.dll
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\refint\SecureDocumentService.DataAccess.dll
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.pdb
 C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\ref\SecureDocumentService.DataAccess.dll
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\bin\Debug\net8.0\SecureDocumentService.DataAccess.runtimeconfig.json
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\bin\Debug\net8.0\SecureDocumentAudit.DTO.dll
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\bin\Debug\net8.0\SecureDocumentAudit.DTO.pdb
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.csproj.AssemblyReference.cache
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDo.26CC6C0C.Up2Date
+C:\Source\SecureDocumentService\SecureDocumentService.DataAccess\obj\Debug\net8.0\SecureDocumentService.DataAccess.genruntimeconfig.cache

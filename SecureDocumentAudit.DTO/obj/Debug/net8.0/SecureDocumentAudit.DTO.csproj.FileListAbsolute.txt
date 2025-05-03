@@ -16,6 +16,7 @@ C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureD
 C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureDocumentAudit.DTO.AssemblyInfoInputs.cache
 C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureDocumentAudit.DTO.AssemblyInfo.cs
 C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureDocumentAudit.DTO.csproj.CoreCompileInputs.cache
+C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureDocumentAudit.DTO.sourcelink.json
 C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureDocumentAudit.DTO.dll
 C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\refint\SecureDocumentAudit.DTO.dll
 C:\Source\SecureDocumentService\SecureDocumentAudit.DTO\obj\Debug\net8.0\SecureDocumentAudit.DTO.pdb

@@ -16,7 +16,9 @@ C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\S
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.AssemblyInfoInputs.cache
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.AssemblyInfo.cs
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.csproj.CoreCompileInputs.cache
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.sourcelink.json
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.dll
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\refint\SecureDocumentService.Workers.dll
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.pdb
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\ref\SecureDocumentService.Workers.dll
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.csproj.AssemblyReference.cache
