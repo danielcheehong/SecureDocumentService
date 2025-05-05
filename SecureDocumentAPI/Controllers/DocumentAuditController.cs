@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SecureDocumentAudit.DTO;
@@ -24,7 +25,7 @@ namespace SecureDocumentAPI.Controllers
 
         [HttpPost("audit-document")]  
 
-        public IActionResult RegisterDocumentAudit([FromBody] DocumentAuditRequest request)
+        public async Task<IActionResult> RegisterDocumentAudit([FromBody] DocumentAuditRequest request)
         {
             // Logic to register document audit
 
@@ -32,8 +33,9 @@ namespace SecureDocumentAPI.Controllers
             {
                 return BadRequest("Invalid request data.");
             }
+            await _documentAuditRepository.AddAsync(request); // Save to the database (if needed)
 
-            _documentAuditChannel.WriteAsync(request).Wait(); // Write to the channel
+            await _documentAuditChannel.WriteAsync(request); // Write to the channel
 
             return Ok(new { Message = "Document audit registered successfully." });
         }
