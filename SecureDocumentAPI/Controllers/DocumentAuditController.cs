@@ -25,19 +25,28 @@ namespace SecureDocumentAPI.Controllers
 
         [HttpPost("audit-document")]  
 
-        public async Task<IActionResult> RegisterDocumentAudit([FromBody] DocumentAuditRequest request)
+        public async Task<IActionResult> RegisterDocumentAudit([FromBody] DocumentAuditRequest request, IFormFile? documentFile = null)
         {
             // Logic to register document audit
 
-            if (request == null)
+            if (request == null || documentFile == null)
             {
                 return BadRequest("Invalid request data.");
             }
+
+            // Save the document file to the server (if needed)
+            var filePath = Path.Combine("UploadedDocuments", documentFile.FileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await documentFile.CopyToAsync(stream);
+            }
+
             await _documentAuditRepository.AddAsync(request); // Save to the database (if needed)
 
             await _documentAuditChannel.WriteAsync(request); // Write to the channel
 
             return Ok(new { Message = "Document audit registered successfully." });
         }
+        
     }
 }

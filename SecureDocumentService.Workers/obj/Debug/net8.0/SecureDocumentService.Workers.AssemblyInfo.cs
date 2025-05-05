@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecureDocumentService.Workers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51921be5a22c1df963e15d6d6495854196a938e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22fb38f2507d9da2cd49a339308a6f0484adfdae")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecureDocumentService.Workers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecureDocumentService.Workers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

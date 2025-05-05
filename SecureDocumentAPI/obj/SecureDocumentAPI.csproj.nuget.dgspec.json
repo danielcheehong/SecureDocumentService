@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj": {}
+    "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj": {}
   },
   "projects": {
-    "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj": {
+    "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj",
+        "projectUniqueName": "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj",
         "projectName": "SecureDocumentAPI",
-        "projectPath": "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj",
+        "projectPath": "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj",
         "packagesPath": "C:\\Users\\hglo\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\obj\\",
+        "outputPath": "C:\\Source\\SecureDocumentService\\securedocumentapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
