@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SecureDocumentAudit.DTO;
+using SecureDocumentService.DataAccess.Interfaces;
 using SecureDocumentService.Infrastructure.Interface;
 
 namespace SecureDocumentAPI.Controllers
@@ -10,11 +11,16 @@ namespace SecureDocumentAPI.Controllers
     public class DocumentAuditController : ControllerBase
     {
         private readonly IDocumentAuditChannel _documentAuditChannel;
+        private readonly IDocumentAuditRepository _documentAuditRepository;
 
-        public DocumentAuditController(IDocumentAuditChannel documentAuditChannel)
+        public DocumentAuditController(IDocumentAuditChannel documentAuditChannel, IDocumentAuditRepository documentAuditRepository)
         {
+            // Constructor injection of the document audit channel and repository
             _documentAuditChannel = documentAuditChannel;
-        } 
+            _documentAuditRepository = documentAuditRepository; // Uncomment if you need to use the repository in this controller
+
+        }
+    
 
         [HttpPost("audit-document")]  
 

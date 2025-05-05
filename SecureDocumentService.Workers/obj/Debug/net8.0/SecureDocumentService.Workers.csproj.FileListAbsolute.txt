@@ -22,3 +22,8 @@ C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\r
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.pdb
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\ref\SecureDocumentService.Workers.dll
 C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDocumentService.Workers.csproj.AssemblyReference.cache
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\bin\Debug\net8.0\SecureDocumentAudit.DTO.dll
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\bin\Debug\net8.0\SecureDocumentService.Infrastructure.dll
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\bin\Debug\net8.0\SecureDocumentService.Infrastructure.pdb
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\bin\Debug\net8.0\SecureDocumentAudit.DTO.pdb
+C:\Source\SecureDocumentService\SecureDocumentService.Workers\obj\Debug\net8.0\SecureDo.793D2B4A.Up2Date

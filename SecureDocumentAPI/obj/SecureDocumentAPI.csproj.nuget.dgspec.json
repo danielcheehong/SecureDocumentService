@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj": {}
+    "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj": {}
   },
   "projects": {
-    "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj": {
+    "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj",
+        "projectUniqueName": "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj",
         "projectName": "SecureDocumentAPI",
-        "projectPath": "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\SecureDocumentAPI.csproj",
+        "projectPath": "C:\\Source\\SecureDocumentService\\securedocumentapi\\SecureDocumentAPI.csproj",
         "packagesPath": "C:\\Users\\hglo\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\SecureDocumentService\\SecureDocumentAPI\\obj\\",
+        "outputPath": "C:\\Source\\SecureDocumentService\\securedocumentapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,6 +64,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -229,6 +241,18 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.23.80, )"
@@ -352,7 +376,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Source\\SecureDocumentService\\SecureDocumentService.Infrastructure\\SecureDocumentService.Infrastructure.csproj": {
+                "projectPath": "C:\\Source\\SecureDocumentService\\SecureDocumentService.Infrastructure\\SecureDocumentService.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

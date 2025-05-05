@@ -9,7 +9,8 @@
       "SecureDocumentService.Workers/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Hosting": "9.0.4",
-          "Microsoft.Extensions.Logging": "9.0.4"
+          "Microsoft.Extensions.Logging": "9.0.4",
+          "SecureDocumentService.Infrastructure": "1.0.0"
         },
         "runtime": {
           "SecureDocumentService.Workers.dll": {}
@@ -444,6 +445,25 @@
             "fileVersion": "9.0.425.16305"
           }
         }
+      },
+      "SecureDocumentAudit.DTO/1.0.0": {
+        "runtime": {
+          "SecureDocumentAudit.DTO.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SecureDocumentService.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SecureDocumentAudit.DTO": "1.0.0"
+        },
+        "runtime": {
+          "SecureDocumentService.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -676,6 +696,16 @@
       "sha512": "sha512-pYtmpcO6R3Ef1XilZEHgXP2xBPVORbYEzRP7dl0IAAbN8Dm+kfwio8aCKle97rAWXOExr292MuxWYurIuwN62g==",
       "path": "system.text.json/9.0.4",
       "hashPath": "system.text.json.9.0.4.nupkg.sha512"
+    },
+    "SecureDocumentAudit.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SecureDocumentService.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

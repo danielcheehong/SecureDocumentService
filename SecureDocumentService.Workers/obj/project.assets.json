@@ -682,6 +682,29 @@
         "build": {
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
+      },
+      "SecureDocumentAudit.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SecureDocumentAudit.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SecureDocumentAudit.DTO.dll": {}
+        }
+      },
+      "SecureDocumentService.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "SecureDocumentAudit.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SecureDocumentService.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SecureDocumentService.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1715,12 +1738,23 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SecureDocumentAudit.DTO/1.0.0": {
+      "type": "project",
+      "path": "../SecureDocumentAudit.DTO/SecureDocumentAudit.DTO.csproj",
+      "msbuildProject": "../SecureDocumentAudit.DTO/SecureDocumentAudit.DTO.csproj"
+    },
+    "SecureDocumentService.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SecureDocumentService.Infrastructure/SecureDocumentService.Infrastructure.csproj",
+      "msbuildProject": "../SecureDocumentService.Infrastructure/SecureDocumentService.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.Hosting >= 9.0.4",
-      "Microsoft.Extensions.Logging >= 9.0.4"
+      "Microsoft.Extensions.Logging >= 9.0.4",
+      "SecureDocumentService.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1755,7 +1789,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Source\\SecureDocumentService\\SecureDocumentService.Infrastructure\\SecureDocumentService.Infrastructure.csproj": {
+              "projectPath": "C:\\Source\\SecureDocumentService\\SecureDocumentService.Infrastructure\\SecureDocumentService.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
