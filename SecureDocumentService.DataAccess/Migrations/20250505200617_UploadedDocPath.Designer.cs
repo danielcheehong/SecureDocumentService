@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SecureDocumentService.DataAccess;
 
@@ -11,9 +12,11 @@ using SecureDocumentService.DataAccess;
 namespace SecureDocumentService.DataAccess.Migrations
 {
     [DbContext(typeof(DocumentAuditDbContext))]
-    partial class DocumentAuditDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250505200617_UploadedDocPath")]
+    partial class UploadedDocPath
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

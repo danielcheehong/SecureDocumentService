@@ -24,21 +24,13 @@ namespace SecureDocumentAPI.Controllers
     
 
         [HttpPost("audit-document")]  
-
-        public async Task<IActionResult> RegisterDocumentAudit([FromBody] DocumentAuditRequest request, IFormFile? documentFile = null)
+        public async Task<IActionResult> RegisterDocumentAudit([FromBody] DocumentAuditRequest request)
         {
             // Logic to register document audit
 
-            if (request == null || documentFile == null)
+            if (request == null)
             {
                 return BadRequest("Invalid request data.");
-            }
-
-            // Save the document file to the server (if needed)
-            var filePath = Path.Combine("UploadedDocuments", documentFile.FileName);
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await documentFile.CopyToAsync(stream);
             }
 
             await _documentAuditRepository.AddAsync(request); // Save to the database (if needed)
@@ -47,6 +39,29 @@ namespace SecureDocumentAPI.Controllers
 
             return Ok(new { Message = "Document audit registered successfully." });
         }
+
+        // [HttpPost("encrypt-document")]
+        // [Consumes("multipart/form-data")]
+        // [RequestSizeLimit(150_000_000)] // 150 MB limit
+        // [RequestFormLimits(MultipartBodyLengthLimit = 150_000_000)] // 150 MB limit
+        // public async Task<IActionResult> EncryptDocument([FromForm] IFormFile file, [FromQuery] string documentId)
+        // {
+        //     if (file == null || file.Length == 0)
+        //         return BadRequest("No file provided.");
+
+        //     // azure_development-get_best_practices
+        //     var uploadsDir =  "Incoming";
+        //     Directory.CreateDirectory(uploadsDir);
+
+        //     var uniqueName = $"{Guid.NewGuid()}{Path.GetExtension(file.FileName)}";
+        //     var filePath   = Path.Combine(uploadsDir, uniqueName);
+
+        //     await using var fs = new FileStream(filePath, FileMode.Create);
+        //     await file.CopyToAsync(fs);
+
+        //     var relativeUrl = $"/Uploads/{uniqueName}";
+        //     return Ok(new { originalName = file.FileName, storedName = uniqueName, url = relativeUrl });
+        // }
         
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SecureDocumentAudit.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22fb38f2507d9da2cd49a339308a6f0484adfdae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef31f4c71024f856d6ea5a6d86580141c31c6249")]
 [assembly: System.Reflection.AssemblyProductAttribute("SecureDocumentAudit.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SecureDocumentAudit.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

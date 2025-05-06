@@ -76,6 +76,8 @@ public class FileProtectionWorker : BackgroundService
                 _logger.LogError(ex, "Error waiting for FileProtectionWorker to be ready: {message}", ex.Message);
                 return;
             }
+            
+            await Task.WhenAll(_runningTasks.Values.Select(x => x.worker));
         }
 
         // Create a method of type task to while loop trying to read the channel and process the messages.
